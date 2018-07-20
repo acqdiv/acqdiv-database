@@ -9,15 +9,17 @@ This repository hosts the public-facing [ACQDIV](http://www.acqdiv.uzh.ch/en.htm
 - Japanese Miyata (Miyata 2004a,b,c, 2012)
 - Sesotho (Demuth 1992, 2015)
 
-If you use our database in your research, please cite it this as:
+If you use our database or additional annotations in your research, please cite it as:
 
 Moran, Steven, Robert Schikowski, Danica Pajović, Cazim Hysi and Sabine Stoll. 2016. The ACQDIV Database: Min(d)ing the Ambient Language. In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), 4423–4429. May 23-28, Portorož, Slovenia. Online: [http://www.lrec-conf.org/proceedings/lrec2016/pdf/1198_Paper.pdf](http://www.lrec-conf.org/proceedings/lrec2016/pdf/1198_Paper.pdf).
 
-These corpora are available in various original input formats (e.g. CHAT, CHAT-XML) via the Child Language Data Exchange System (CHILDES) component of the TalkBank system and are made openly available under the [Creative Commons license BY-NC-SA 3.0.](https://creativecommons.org/licenses/by-nc-sa/3.0/). We have converted the original data formats into easily accessible tables and we have enriched the annotation data, in particular at the morpheme level. We also provide a linguistically-informed subset of grammatical classes for cross-linguistic research. For detailed information about the corpora and the data structures we use, see the [manual for the ACQDIV corpus](https://github.com/acqdiv/corpus_manual/blob/master/corpus_manual.pdf).
+These corpora are available in various original input formats (e.g. CHAT, CHAT-XML) via the Child Language Data Exchange System (CHILDES) component of the TalkBank system and are made openly available under the [Creative Commons license BY-NC-SA 3.0.](https://creativecommons.org/licenses/by-nc-sa/3.0/). 
+
+We have converted the original data formats into easily accessible tables and we have enriched the annotation data, in particular at the morpheme level. We also provide a linguistically-informed subset of grammatical classes for cross-linguistic research. For detailed information about the corpora and the data structures that we use, see the [ACQDIV corpus manual](https://github.com/acqdiv/corpus_manual/blob/master/corpus_manual.pdf).
 
 The ground rules for using corpora from [TalkBank](https://talkbank.org/) and [CHILDES](https://childes.talkbank.org/) are stipulated here and the use of individual corpora used in research should be cited accordingly:
 
-https://talkbank.org/share/rules.html
+[https://talkbank.org/share/rules.html](https://talkbank.org/share/rules.html)
 
 The ACQDIV database also contains privately owned longitudinal child language acquisition corpora from languages that were selected from five clusters calculated via maximum diversity sampling (Stoll & Bickel, 2013) to achieve a typologically maximally diverse language sample:
 
@@ -28,7 +30,7 @@ The ACQDIV database also contains privately owned longitudinal child language ac
 - Turkish (Küntay et al. Unpublished)
 - Yucatec (Pfeiler Unpublished)
 
-Access to these corpora in the ACQDIV database format is restricted by the project's [Terms of Agreement](http://www.acqdiv.uzh.ch/dam/jcr:c7318751-f531-43a8-9dbd-b48eee950a4c/terms_of_use_for_the_acqdiv_corpus.pdf). Contact Prof. [Sabine Stoll](http://www.psycholinguistics.uzh.ch/en/stoll.html) for more information.
+Access to these corpora is restricted by the project's [Terms of Agreement](http://www.acqdiv.uzh.ch/dam/jcr:c7318751-f531-43a8-9dbd-b48eee950a4c/terms_of_use_for_the_acqdiv_corpus.pdf). Contact Prof. [Sabine Stoll](http://www.psycholinguistics.uzh.ch/en/stoll.html) for more information.
 
 The research leading to these results has received funding from the European Unions Seventh Framework Programme (FP7/2007-2013) under grant agreement no. 615988 (PI Sabine Stoll).
 
