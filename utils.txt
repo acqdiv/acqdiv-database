@@ -1,0 +1,35 @@
+# Some spot checks to make sure only publicly available data go through the database pipeline.
+select * from sessions where corpus not in ("Indonesian", "Japanese_Miyata", "Japanese_MiiPro", "Sesotho")
+select * from utterances where corpus not in ("Indonesian", "Japanese_Miyata", "Japanese_MiiPro", "Sesotho")
+select * from words where corpus not in ("Indonesian", "Japanese_Miyata", "Japanese_MiiPro", "Sesotho")
+select * from morphemes where corpus not in ("Indonesian", "Japanese_Miyata", "Japanese_MiiPro", "Sesotho")
+select * from speakers where corpus not in ("Indonesian", "Japanese_Miyata", "Japanese_MiiPro", "Sesotho")
+select * from uniquespeakers where corpus not in ("Indonesian", "Japanese_Miyata", "Japanese_MiiPro", "Sesotho")
+
+# Double check csv/ files
+grep "Cree" *
+grep "Chintang" *
+grep "Inuktitut" *
+grep "Russian" *
+grep "Turkish" *
+grep "Yucatec" *
+
+# CSV tables too large for GitHub; split em
+split -b 100m words.csv
+mv xaa words1.csv
+mv xab words2.csv
+mv xac words3.csv
+mv xad words4.csv
+
+split -b 100m morphemes.csv
+mv xaa morphemes1.csv
+mv xab morphemes2.csv
+mv xac morphemes3.csv
+mv xad morphemes4.csv
+mv xae morphemes5.csv
+
+split -b 100m utterances.csv
+mv xaa utterances1.csv
+mv xab utterances2.csv
+mv xac utterances3.csv
+mv xad utterances4.csv
