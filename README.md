@@ -1,4 +1,15 @@
-# acqdiv-database
+# acqdiv-database (deprecated)
+
+This repository contains the 2018 public-facing ACQDIV database that was used in our paper on frequent frames:
+
+```
+Moran, Steven, Damián E. Blasi, Robert Schikowski, Aylin C. Küntay, Barbara Pfeiler, Shanley Allen and Sabine Stoll. 2018. A universal cue for grammatical categories in the input to children: frequent frames. *Cognition*, 175, 131–140. DOI: [https://doi.org/10.1016/j.cognition.2018.02.005](https://doi.org/10.1016/j.cognition.2018.02.005).
+```
+
+Please find the latest public-facing ACQDIV database now archived in Zenodo: [http://doi.org/10.5281/zenodo.3558641](http://doi.org/10.5281/zenodo.3558641).
+
+Below is the overview to the 2018 (deprecated) version.
+
 
 ## Overview
 
